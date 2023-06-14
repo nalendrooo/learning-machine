@@ -1,7 +1,7 @@
 gunicorn==20.1.0
 gdown
 flask==2.1.0
-numpy==1.21.1
-pydantic==1.8.2
+numpy
+pydantic
 tensorflow
 tensorflow-text
