@@ -1,2 +1,9 @@
 Flask==2.1.0
 gunicorn==20.1.0
+gdown
+pydantic
+python-multipart
+numpy
+Pillow
+tensorflow
+tensorflow_text
