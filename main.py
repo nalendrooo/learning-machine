@@ -3,6 +3,7 @@ import traceback
 import numpy as np
 import tensorflow_text
 import tensorflow as tf
+import download
 
 from pydantic import BaseModel
 from flask import Flask, Response, request
@@ -64,4 +65,5 @@ def predict_text():
 
 
 if __name__ == "__main__":
+    download.run()
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 4000)))
